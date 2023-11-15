@@ -1,0 +1,19 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_web/locator.dart';
+import 'package:flutter_web/routing/route_names.dart';
+import 'package:flutter_web/routing/router.dart';
+import 'package:flutter_web/services/navigation_service.dart';
+import 'package:flutter_web/ui/widgets.dart';
+import 'package:responsive_builder/responsive_builder.dart';
+
+part 'views/home_view.dart';
+part 'views/centered_view.dart';
+part 'views/navbar_mobile_view.dart';
+part 'views/navbar_tablet_desktop_view.dart';
+part 'views/home_content_desktop_view.dart';
+part 'views/home_content_mobile_view.dart';
+part 'views/navigation_drawer_view.dart';
+part 'views/episodes_view.dart';
+part 'views/about_view.dart';
+part 'layout_template/layout_template.dart';
